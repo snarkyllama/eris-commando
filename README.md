@@ -28,7 +28,7 @@ $ npm i eris-commando
 ```js
 const Commando = require('eris-commando');
 
-const client = new Command.Client({
+const client = new Commando.Client({
     token: "token",
     erisOptions: {
         // Eris' options.
@@ -51,10 +51,10 @@ module.exports = class MyCommand extends Commando.Client {
             usage: 'usage',
             aliases: [],
             category: "Category",
-            nsfw = false,
-            owner = false,
-            guild = true,
-            enabled = true
+            nsfw: false,
+            owner: false,
+            guild: true,
+            enabled: true
         });
     }
 
