@@ -1,0 +1,12 @@
+{
+    "name": "eris-commando",
+    "description": "A lightweight and carefree framework for the Eris library.",
+    "version": "0.0.2",
+    "dependencies": {
+        "eris": "0.8.6"
+    },
+    "main": "./lib/index.js",
+    "optionalDependencies": {
+        "uws": "10.148.1"
+    }
+}
